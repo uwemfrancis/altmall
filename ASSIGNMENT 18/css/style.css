@@ -1,0 +1,834 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.pad{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+/* NAVBAR-1 */
+.nav1{
+    display: flex;
+    justify-content: flex-end;
+    color: blue;
+    font-weight: bolder;
+    border-bottom: 1px solid gray;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.line{
+    background-color: rgb(212, 209, 209);
+    width: 0.1rem;
+    height: 1.4rem;
+}
+
+.media-navbar{
+    display: none;
+}
+
+.english{
+    display: none;
+}
+
+.account {
+    display: none;
+}
+/* NAVBAR-1 ENDS */
+
+/* NAVBAR-2 */
+.nav-logo img{
+    width: 10rem;
+    height: 3rem;
+}
+
+.nav-search, .security, .free {
+    padding-right: 10rem;
+    
+}
+
+.nav-search input{
+    padding: 0.8rem 0.5rem;
+    width: 20rem;
+    background-color: rgb(223, 221, 221);
+    border: none;
+    border-radius: 1.3rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+.fa-shield, .fa-refresh, .fa-cart-plus {
+    font-size: 2.5rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+}
+
+.cart{
+    border: 1px solid rgb(190, 190, 190);
+    padding: 0.6rem 1.8rem;
+}
+/* NAVBAR 2 ENDS */
+
+/* NAVBAR 3 */
+.navbar-3{
+    background-color: rgb(240, 232, 248);
+    height: 65rem;
+    position: relative;
+    width: 100%;
+}
+
+.nav-3-background{
+    background-color: black;
+    height: 4rem;
+}
+.navbar-3-content{
+    
+    padding: 1rem 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+.navbar-3 a{
+    padding-right: 5rem;
+    color: white;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+.altpower{
+    border: 2px solid rgb(150, 2, 150);
+    padding: 0.8rem 0.8rem;
+    margin-top: -0.8rem;
+    border-radius: 1.3rem;
+    padding-left: 1.5rem;
+
+}
+.dropdown-1{
+    width: 25rem;
+    border: 1px solid rgb(150, 2, 150);
+    position: absolute;
+    top: 0rem;
+    left: 10rem;
+}
+
+.all-categories{
+    background-color: rgb(150, 2, 150);
+    padding: 1rem 1rem;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+.all-categories:hover{
+    background-color: gray;
+    
+}
+.fa-bars{
+    font-size: 1.2rem;
+    padding-top: 0.25rem;
+}
+
+.all-categories h3{
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+
+.arts, .automative, .baby, .beauty, .books, .building, .computers, .view{
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid rgb(197, 195, 195);
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.arts h3, .automative h3, .baby h3, .beauty h3, .books h3, .building h3, .computers h3, .view h3{
+    font-size: 1.4rem;
+    color: blue;
+    align-items: center;
+}
+.fa-angle-right{
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.dropdown-img{
+    width: 3.2rem;
+    height: 2.5rem;
+    padding-right: 1rem;
+}
+
+.subscribe{
+    text-align: center !important;
+    padding: 3rem 1rem;
+    background-image: url("../IMAGES/menubg.4890030.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -6rem;
+}
+
+.subscribe input{
+    font-size: 1.5rem;
+    border: 1.5px solid blue;
+    border-radius: 2rem;
+    padding: 2rem 0.5rem ;
+    margin: 2rem 0rem;
+}
+
+.subscribe-btn{
+    font-size: 1.3rem;
+    color: black;
+}
+
+
+
+/* MEDIA QUERY DROPDOWN */
+
+.dropdown{
+    display: none;
+}
+.btn-secondary {
+    background-color: rgb(150, 2, 150);
+    width: 25rem;
+    justify-items: center;
+    font-size: 0rem;
+}
+
+.btn-secondary:hover{
+    background-color: rgb(150, 2, 150);
+}
+
+.btn-secondary h3{
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+
+}
+
+.dropdownmenu{
+    width: 25rem;
+}
+/* MEDIA QUERY DROPDOWN ENDS */
+
+
+/* CAROUSEL */
+
+.carousel-position{
+    position: absolute;
+    top: 17.5rem;
+    left: 29rem;
+    
+}
+.carousel-images{
+    width: 77.5rem;
+}
+
+.carousel-2{
+    left: 20rem;
+    width: 77.5rem;
+
+}
+.img-1{
+    width: 38rem;
+    height: 20rem;
+}
+/* CAROUSEL ENDS */
+
+/* RECOMMENDED ITEMS */
+.recommended-media{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    grid-row-gap: 3rem;
+}
+.content li, h6{
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding-top: 0.6rem;
+    line-height: 0.6rem;
+}
+
+.item-2{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20rem;
+    height: 20rem;
+}
+
+.price{
+    background-color: red;
+    padding: 0.4rem 0.5rem;
+    width: 10rem;
+    height: 2.5rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.tooltip-1{
+    opacity: 1;
+    height: 20rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    opacity: 0;
+    align-items: center;
+}
+
+.btn-cart{
+    width: 75%;
+    padding: 1rem 0rem;
+    background-color: rgb(150, 2, 150);
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+}
+
+.btn-eye{
+    width: 20%;
+    padding: 0.5rem 0rem 0.8rem 0rem;
+    background-color: white;
+    color: blue;
+    font-size: 1.8rem;
+    border: none;
+    margin-left: -0.5rem;
+    outline: none;
+}
+
+.tooltip-1:hover{
+    opacity: 1;
+}
+
+
+
+/* SECTION 4 */
+.sect-img{
+    width: 100%;
+}
+
+
+.item-1{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+}
+
+/* DEAL OF THE DAY */
+.deal-bg{
+    background-color: rgb(150, 2, 150);
+    padding: 2rem 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.deals{
+    width: 20rem;
+       
+}
+
+.deal-img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.line-2{
+    background-color: white;
+    width: 0.15rem;
+    height: 5rem;
+    margin: 0rem 4rem;
+}
+/* DEAL SECTION ENDS */
+
+/* ALTMALL CONTACT SECTION */
+.contact-us img{
+    width: 8rem;
+    height: 3rem;
+}
+
+.contact-us p, .newsletter p{
+    font-size: 1.3rem;
+}
+
+.more-details li, .quick-links li {
+    font-size: 1.3rem;
+    list-style-type: none;
+    padding-bottom: 0.8rem;
+}
+
+.fa-facebook, .fa-camera-retro, .fa-twitter{
+    background-color: rgb(248, 230, 196);
+    border-radius: 50%;
+    padding: 0.6rem;
+}
+/* ALTMALL CONTACT SECTION ENDS */
+
+/* FOOTER */
+.bground{
+    background-color: black;
+}
+.footer{
+    font-size: 1.3rem;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 1440px){
+    html{
+        font-size: 65%;
+    }
+
+    .pad{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    /* NAVBAR-2 */
+    .nav-search, .security, .free {
+        padding-right: 6rem;
+        
+    }
+    /* NAVBAR-2 ENDS */
+
+    /* NAVBAR-3 */
+    .navbar-3{
+        height: 57rem;
+    }
+
+    .navbar-3 a{
+        padding-right: 3rem;
+
+    }
+
+    .arts, .automative, .baby, .beauty, .books, .building, .computers, .view{
+        padding: 1.05rem 1rem;
+
+    }
+    .subscribe{
+        padding: 2rem 1rem;
+    }
+    
+    .subscribe input{
+        padding: 1rem 0.5rem ;
+        margin: 1rem 0rem;
+    }
+
+    /* CAROUSEL */
+
+    .carousel-position{
+        /* position: absolute; */
+        top: 17.5rem;
+        left: 28rem;
+    
+    }
+    .carousel-images{
+        width: 60rem;
+    }
+
+    .carousel-2{
+        left: 28rem;
+        width: 60rem;
+
+    }
+    .img-1{
+        width: 29.3rem;
+        height: 20rem;
+    }
+    /* CAROUSEL ENDS */
+
+    /* RECOMMENDED ITEMS */
+    .item-1, .item-2, .item-3{
+        width: 18rem;
+    }
+
+    /* DEAL OF THE DAY SECTION */
+    .line-2{
+        margin: 0rem 1rem;
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+
+    .pad{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    /* NAVBAR-2 */
+    .nav-search, .security, .free {
+        padding-right: 4rem;
+        
+    }
+    /* NAVBAR-2 ENDS */
+
+    /* NAVBAR-3 */
+    .navbar-3{
+        height: 57rem;
+    }
+
+    .navbar-3 a{
+        padding-right: 3rem;
+
+    }
+
+    .arts, .automative, .baby, .beauty, .books, .building, .computers, .view{
+        padding: 1.05rem 1rem;
+
+    }
+    .subscribe{
+        padding: 2rem 1rem;
+    }
+    
+    .subscribe input{
+        padding: 1rem 0.5rem ;
+        margin: 1rem 0rem;
+    }
+
+    /* CAROUSEL */
+
+    .carousel-position{
+        top: 17.5rem;
+        left: 28rem;
+    
+    }
+    .carousel-images{
+        width: 62rem;
+    }
+
+    .carousel-2{
+        width: 62rem;
+
+    }
+    .img-1{
+        width: 30.2rem;
+        height: 17rem;
+    }
+    /* CAROUSEL ENDS */
+
+    /* RECOMMENDED ITEMS */
+    .item-1, .item-2, .item-3{
+        width: 18rem;
+    }
+
+    /* DEAL OF THE DAY SECTION */
+    .line-2{
+        margin: 0rem 1rem;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size: 70%;
+    }
+
+    .pad{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    /* NAVBAR-1 */
+    .nav1{
+        display: none;
+    }
+
+    .media-navbar{
+        display: unset;
+        color: blue;
+        cursor: pointer;
+    }
+    
+    .english, .account{
+        display: unset;
+       
+    }
+    
+    /* NAVBAR-2 */
+    
+.nav-logo img{
+    width: 7rem;
+    height: 2rem;
+}
+
+.nav-content{
+    display: none;
+}
+.nav-search, .security, .free {
+    display: none !important;
+    
+}
+
+.cart{
+    border: 1px solid rgb(190, 190, 190);
+    padding: 0.2rem 1.5rem;
+    font-size: 0.7rem;
+}
+    /* NAVBAR-2 ENDS */
+
+    /* NAVBAR-3 */
+    /* OVERALL BACKGROUND */
+    .media-query-background{
+        background-color: black;
+    }
+    /* ALTPOWER NAVBAR */
+    .navbar-3-media-one{
+        position: absolute;
+        top: 7.9rem;
+        left: 16.5rem;
+    }
+    
+    .navbar-media-3{
+        display: unset !important;
+        position: relative;
+        left: 7rem;
+        
+        color: white;
+    }
+
+    .navbutton{
+        background-color: white;
+        height: 3.3rem;
+        margin-top: 0.1rem;
+        
+    }
+
+    .media-query-align{
+        align-items: flex-end;
+        margin-left: -6rem;
+        background-color: white;
+        padding: 0rem 0.5rem;
+    }
+    /* ALTPOWER NAVBAR ENDS */
+    
+    /* NAVBAR DISPLAY FOR DESKTOP VIEW */
+    .navbar-3{
+        display: none;
+    }
+    /* NAVBAR DISPLAY FOR DESKTOP VIEW ENDS */
+
+    /* MEDIA QUERY DROPDOWN */
+    .dropdown-1{
+        display: none;
+    }
+
+    .dropdown{
+        display: unset !important;
+    }
+
+    .btn-secondary {
+        background-color: rgb(150, 2, 150);
+        width: 3.7rem;
+        padding: 1rem 1.3rem;
+        border: none;
+    }
+
+    .btn-secondary:hover{
+        background-color: gray;
+    }
+
+    .dropdownmenu{
+        width: 18rem;
+    }
+
+    .dropdown-item h3{
+        font-size: 80%;
+    }
+
+    .dropdown-img{
+        width: 2.3rem;
+        height: 1.5rem;
+    }
+
+    .fa-angle-right{
+        font-size: 1rem;
+    }
+
+    .subscribe{
+        padding: 0.5rem 0.5rem;
+        background-position-x: 0rem;
+        font-size: 0.3rem;
+    }
+
+    .subscribe h2{
+        font-size: 1rem;
+    }
+
+    .subscribe input{
+        font-size: 1rem;
+        border: 1px solid blue;
+        border-radius: 1.5rem;
+        padding: 1.2rem 0.5rem ;
+        margin: 0.5rem 0rem;
+    }
+
+    .subscribe-btn{
+        font-size: 1rem;
+    }
+    /* MEDIA QUERY DROPDOWN ENDS */
+
+    /* CAROUSEL */
+    .carousel-position{
+        top: 13rem;
+        left: 0rem;
+        z-index: -3;
+    }
+    .carousel-images{
+        width: 100%;
+    }
+
+    .carousel-2{
+        width: 100%;
+
+    }
+    .img-1{
+        width: 14rem;
+        height: 7rem;
+    }
+    /* CAROUSEL ENDS */
+
+    /* SECTION 2 */
+    .sect-img{
+        margin-top: 24rem;
+    }
+    /* SECTION 2 ENDS */
+
+    /* RECOMMENDED ITEMS */
+    .recommended-media{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-column-gap: 1rem;
+        grid-row-gap: 2rem;
+    }
+    .item-1, .item-2, .item-3{
+        width: 13rem;
+        height: 12rem;
+    }
+
+    .tooltip-1{
+        height: 12rem;
+        padding-top: 5rem;
+    }
+    
+    .btn-cart{
+        width: 75%;
+        padding: 0.5rem 0rem;
+        background-color: rgb(150, 2, 150);
+        color: white;
+        font-size: 0.8rem;
+        border: none !important;
+        outline: none !important;
+    }
+    
+    .btn-eye{
+        width: 20%;
+        padding: 0.3rem 0rem 0.55rem 0rem;
+        background-color: white;
+        color: blue;
+        font-size: 1.05rem;
+        border: none;
+        margin-left: -0.5rem;
+        outline: none;
+    }
+    
+    .tooltip-1:hover{
+        opacity: 1;
+    }
+    
+    /* RECOMMENDED ITEMS END */
+
+    /* CAROUSEL ICONS */
+    .carousel-images-2{
+        padding: 0rem 12rem;
+    }
+
+    .carousel-img{
+        width: 5rem;
+        height: 2.7rem;
+    }
+    /* DEAL OF THE DAY SECTION */
+    .deal-bg{
+        padding: 0.5rem 1rem;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .deals h6{
+        font-size: 80%;
+        margin-top: -0.5rem;
+        line-height: 1rem;
+    }
+
+    .deals h3{
+        font-size: 80%;
+    }
+    .deals{
+        width: 20rem;           
+    }
+
+    .deals-writeup{
+        padding-left: 0rem !important;
+    }
+    
+    .deal-img{
+        display: none;
+        
+    }
+    
+    .line-2{
+        background-color: white;
+        width: 0.15rem;
+        height: 4rem;
+        margin: 0rem 0.5rem;
+    }
+    /* DEAL OF THE DAY ENDS */
+    
+    /* CONTACT */
+    .contact-media{
+        display: grid !important;
+        grid-template-columns: auto auto;
+        grid-row-gap: 1.5rem;
+        
+    }
+
+    .contact-us h3, .more-details h3, .newsletter h3, .quick-links h3{
+        font-size: 100%;
+    }
+
+    .contact-us p, .more-details li, .newsletter p, .quick-links li{
+        font-size: 105%;
+    }
+
+    .enter-email{
+        display: block;
+        width: 5rem;
+    }
+
+    .form-control{
+        width: 12rem !important;
+        border-radius: 0.3rem !important;
+    }
+
+    .btn-dark{
+        border-radius: 0.3rem !important;
+        margin-top: 0.3rem;
+        
+    }
+
+    /* FOOTER */
+    .bground{
+        margin-top: 1rem;
+    }
+    .rights-reserved{
+        font-size: 80%;
+    }
+
+}
